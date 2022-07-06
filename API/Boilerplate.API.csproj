@@ -22,14 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Configurations\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\BoilerplateProject.Domain\BoilerplateProject.Domain.csproj" />
-    <ProjectReference Include="..\BoilerplateProject.Service\BoilerplateProject.Service.csproj" />
+    <ProjectReference Include="..\Domain\Boilerplate.Domain.csproj" />
+    <ProjectReference Include="..\Service\Boilerplate.Service.csproj" />
   </ItemGroup>
 
 </Project>
