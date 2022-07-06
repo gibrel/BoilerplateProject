@@ -12,13 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BoilerplateProject.Data\BoilerplateProject.Data.csproj" />
-    <ProjectReference Include="..\BoilerplateProject.Domain\BoilerplateProject.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Validators\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\Data\Boilerplate.Data.csproj" />
+    <ProjectReference Include="..\Domain\Boilerplate.Domain.csproj" />
   </ItemGroup>
 
 </Project>
