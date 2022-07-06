@@ -27,10 +27,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BoilerplateProject.API\BoilerplateProject.API.csproj" />
-    <ProjectReference Include="..\BoilerplateProject.Data\BoilerplateProject.Data.csproj" />
-    <ProjectReference Include="..\BoilerplateProject.Domain\BoilerplateProject.Domain.csproj" />
-    <ProjectReference Include="..\BoilerplateProject.Service\BoilerplateProject.Service.csproj" />
+    <ProjectReference Include="..\API\Boilerplate.API.csproj" />
+    <ProjectReference Include="..\Data\Boilerplate.Data.csproj" />
+    <ProjectReference Include="..\Domain\Boilerplate.Domain.csproj" />
+    <ProjectReference Include="..\Service\Boilerplate.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
