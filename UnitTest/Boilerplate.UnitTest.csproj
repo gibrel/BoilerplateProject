@@ -33,4 +33,13 @@
     <ProjectReference Include="..\BoilerplateProject.Service\BoilerplateProject.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Fixtures\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Systems\Controllers\" />
+    <Folder Include="Systems\Validators\" />
+    <Folder Include="Systems\Services\" />
+    <Folder Include="Systems\Repositories\" />
+  </ItemGroup>
+
 </Project>
