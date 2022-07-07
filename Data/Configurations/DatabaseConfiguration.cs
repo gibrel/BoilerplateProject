@@ -2,6 +2,6 @@
 {
     public class DatabaseConfiguration
     {
-        public string ConnectionString { get; set; }
+        public string? WebApiDatabase { get; set; }
     }
 }

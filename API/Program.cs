@@ -50,7 +50,7 @@ app.Run();
 void ConfigureServices(IServiceCollection services)
 {
     services.Configure<DatabaseConfiguration>(
-        builder.Configuration.GetSection("database:sqlite"));
+        builder.Configuration.GetSection("ConnectionStrings"));
 
     services.AddSingleton(new MapperConfiguration(config =>
     {

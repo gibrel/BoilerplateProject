@@ -21,7 +21,7 @@ namespace Boilerplate.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = _configuration.ConnectionString;
+            string connectionString = _configuration.WebApiDatabase ?? "TestDatabase";
 
             optionsBuilder.UseInMemoryDatabase(connectionString, opt =>
             {
